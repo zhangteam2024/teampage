@@ -35,6 +35,13 @@ nav:
   </div>
 </div>
 
+  <h2>Biography</h2>
+  <ul>
+    <li>Prof. Baoping Zhang received her Ph.D. degree in Materials Science from Fudan University in Jan 2019. Afterwards, she worked as a postdoctoral fellow at City University of Hong Kong and The Hong Kong Polytechnic University. She was promoted to Assistant Professor in the Department of Mechanical Engineering at The Hong Kong Polytechnic University in June 2024.</li>
+    <li>Prof. Zhang's research interest has been broadly centered on nature-inspired materials and interfaces for sustainable water-energy nexus. Her research aims to explore nature's wisdoms and translate nature's principles into the development advanced materials and functional surfaces that can inspire innovative water-energy applications, ranging from water harvesting to energy harvesting and thermal management.</li>
+    <li>Prof. Zhang has a track record with peer-reviewed publications in the field of Engineering/Materials/Energy, including Nature Reviews Electrical Engineering, Nature Communications, Science Advances, ACS Nano, Chemical Engineering Journal, ACS Applied Materials & Interfaces, etc.</li>
+  </ul>
+    
 <!-- 下方两块浅底纹方框 -->
 <div class="two-col">
   <div class="card">
@@ -57,14 +64,7 @@ nav:
     </ul>
   </div>
 </div>
-<div class="card">
-    <h2>Biography</h2>
-    <ul>
-      <li>Prof. Baoping Zhang received her Ph.D. degree in Materials Science from Fudan University in Jan 2019. Afterwards, she worked as a postdoctoral fellow at City University of Hong Kong and The Hong Kong Polytechnic University. She was promoted to Assistant Professor in the Department of Mechanical Engineering at The Hong Kong Polytechnic University in June 2024.</li>
-      <li>Prof. Zhang's research interest has been broadly centered on nature-inspired materials and interfaces for sustainable water-energy nexus. Her research aims to explore nature's wisdoms and translate nature's principles into the development advanced materials and functional surfaces that can inspire innovative water-energy applications, ranging from water harvesting to energy harvesting and thermal management.</li>
-      <li>Prof. Zhang has a track record with peer-reviewed publications in the field of Engineering/Materials/Energy, including Nature Reviews Electrical Engineering, Nature Communications, Science Advances, ACS Nano, Chemical Engineering Journal, ACS Applied Materials & Interfaces, etc.</li>
-    </ul>
-</div>
+
 
 
 {% comment %}
