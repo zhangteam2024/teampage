@@ -1,6 +1,6 @@
 ---
 name: Prof. ZHANG Baoping 張寶萍
-image: images/people/pi.jpg     # 头像相对路径
+image: images/people/pi.png     # 头像相对路径
 role: pi                        # 角色：pi / student / staff
 position: Assistant Professor         # 显示头衔
 weight: 0                       # 用于排序，数字越小越靠前
