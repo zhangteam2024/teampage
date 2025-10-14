@@ -26,7 +26,6 @@ nav:
       <a href="https://scholar.google.com.hk/citations?user=FbqCeAQAAAAJ&hl=en">Google Scholar</a>
       <span class="sep">&bull;</span>
       <a href="https://orcid.org/0000-0002-8101-7538">ORCID</a>
-      <span class="sep">|</span>
       <strong>Email:</strong> <a href="baoping.zhang@polyu.edu.hk">baoping.zhang@polyu.edu.hk</a>
     </p>    
   </div>
