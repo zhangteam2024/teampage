@@ -15,8 +15,8 @@ nav:
     <div class="pi-title"><strong>Mechanical Engineering</strong></div>
 
     <ul class="pi-meta">
-      Ph.D. in Fudan University
-      Area of Specialization: Nature-inspired materials and interfaces; Membranes; Water harvesting/solar desalination; Energy harvesting and storage; Heat and mass transfer; Interfacial fluid dynamics
+      <div>Ph.D. in Fudan University</div>
+      <div>Area of Specialization: Nature-inspired materials and interfaces; Membranes; Water harvesting/solar desalination; Energy harvesting and storage; Heat and mass transfer; Interfacial fluid dynamics</div>
     </ul>
 
     <p class="pi-links">
