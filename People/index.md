@@ -10,8 +10,8 @@ nav:
 
   <!-- 右侧文字区 -->
   <div>
-    <h1 class="pi-name">Your PI Name</h1>
-    <div class="pi-title">Professor of Mechanical Engineering</div>
+    <h1 class="pi-name">Prof. Baoping Zhang 張寶萍</h1>
+    <div class="pi-title">Assistant Professor</div>
 
     <ul class="pi-meta">
       <li>Ph.D. in Fudan University</li>
