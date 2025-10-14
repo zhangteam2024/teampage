@@ -6,7 +6,7 @@ nav:
 
 <div class="pi-hero">
   <!-- 左侧大图：把 pi.jpg 换成你的文件名 -->
-  <img src="{{ 'images/people/pi.jpg' | relative_url }}" alt="Principal Investigator" class="pi-photo">
+  <img src="{{ 'images/pi.jpg' | relative_url }}" alt="Principal Investigator" class="pi-photo">
 
   <!-- 右侧文字区 -->
   <div>
