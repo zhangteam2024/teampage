@@ -1,5 +1,5 @@
 backend:
-  name: zhangslab
+  name: github
   repo: zhangteam2024/teampage   # 例如 floyd/my-lab-site
   branch: main
   # 下面两行用于 Cloudflare Pages 的 OAuth（第3步会加函数）
