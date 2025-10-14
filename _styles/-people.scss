@@ -1,0 +1,37 @@
+/* 置顶 PI 的两栏布局与大图 */
+.pi-block {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 24px;
+  align-items: start;
+}
+.pi-photo {
+  width: 220px;
+  border-radius: 8px;
+}
+.pi-name { margin: 0 0 6px 0; }
+.pi-pos { margin: 0 0 12px 0; color: var(--muted-foreground, #555); }
+.pi-links a { text-decoration: none; }
+
+/* Students / Staff 网格卡片 */
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 18px;
+}
+.person-card {
+  background: var(--card, #fff);
+  border: 1px solid var(--border, #eee);
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+}
+.person-card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+.person-name { font-weight: 600; }
+.person-pos { font-size: 0.95rem; color: var(--muted-foreground, #666); }
