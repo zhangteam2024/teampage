@@ -1,0 +1,61 @@
+backend:
+  name: zhangslab
+  repo: zhangteam2024/teampage   # 例如 floyd/my-lab-site
+  branch: main
+  # 下面两行用于 Cloudflare Pages 的 OAuth（第3步会加函数）
+  base_url: https://teampage-lo4.pages.dev   # 如 https://my-lab-site.pages.dev
+  auth_endpoint: /api/auth
+
+media_folder: "images/uploads"     # 上传文件存放处（仓库内）
+public_folder: "/images/uploads"   # 页面里引用路径
+
+collections:
+  # 1) 五个导航页面，直接可视化编辑正文
+  - name: pages
+    label: Pages
+    files:
+      - name: research
+        label: Research
+        file: "research/index.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - name: people
+        label: People (Intro Section)
+        file: "People/index.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - name: publications
+        label: Publications
+        file: "publications/index.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - name: gallery
+        label: Gallery
+        file: "gallery/index.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - name: contact
+        label: Contact us
+        file: "contact/index.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+
+  # 2) People 数据（_members/ 里的每个人一条）
+  - name: menber
+    label: Menber
+    folder: "_members"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: Name, name: name, widget: string}
+      - {label: Role, name: role, widget: select, options: ["pi","student","staff"]}
+      - {label: Position, name: position, widget: string, required: false}
+      - {label: Email, name: email, widget: string, required: false}
+      - {label: Weight, name: weight, widget: number, value_type: int, default: 10}
+      - {label: Photo, name: image, widget: image}
+      - {label: Bio, name: body, widget: markdown}
